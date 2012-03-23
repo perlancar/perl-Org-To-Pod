@@ -23,6 +23,8 @@ NOT YET IMPLEMENTED.
 
 =head1 SEE ALSO
 
+For more information about Org document format, visit http://orgmode.org/
+
 L<Org::Parser>
 
 L<Org::To::HTML>
