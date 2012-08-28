@@ -694,8 +694,6 @@ This module uses L<Log::Any> logging framework.
 
 This module uses L<Moo> for object system.
 
-This module's functions have L<Sub::Spec> specs.
-
 
 =head1 FUNCTIONS
 
