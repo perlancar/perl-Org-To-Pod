@@ -1,6 +1,6 @@
 package Org::To::Pod;
 
-use 5.010;
+use 5.010001;
 use Log::Any '$log';
 
 use vars qw($VERSION);
