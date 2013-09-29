@@ -4,8 +4,9 @@ use 5.010;
 use strict;
 use warnings;
 
-use Sub::Spec::CmdLine qw(run);
-run(module => 'Org::Export::HTML', sub=>'export_org_to_html');
+use Perinci::CmdLine;
+
+Perinci::CmdLine->new(url => '/Org/Export/HTML/export_org_to_html')->run;
 
 # ABSTRACT: Export Org to HTML document
 # PODNAME: export-org-to-html

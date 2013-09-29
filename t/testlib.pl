@@ -6,7 +6,7 @@ use warnings;
 
 use Org::Export::HTML qw(export_org_to_html);
 use Test::Differences;
-use Test::More 0.96;
+use Test::More 0.98;
 
 sub test_export_html {
     my %args = @_;
