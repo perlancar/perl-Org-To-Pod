@@ -6,7 +6,7 @@ use Log::Any '$log';
 
 use vars qw($VERSION);
 
-use File::Slurp;
+use File::Slurp::Tiny qw(read_file write_file);
 use HTML::Entities qw/encode_entities/;
 use List::Util;
 use Moo;
