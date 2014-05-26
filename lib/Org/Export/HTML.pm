@@ -2,14 +2,16 @@ package Org::Export::HTML;
 # ABSTRACT: Export Org document to HTML
 
 use 5.010;
+use Moo;
+use experimental 'smartmatch';
 use Log::Any '$log';
 
-use vars qw($VERSION);
+# VERSION
+# DATE
 
 use File::Slurp::Tiny qw(read_file write_file);
 use HTML::Entities qw/encode_entities/;
 use List::Util;
-use Moo;
 use Org::Document qw/first/;
 use String::Escape qw/elide printable/;
 
