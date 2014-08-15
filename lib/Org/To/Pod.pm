@@ -1,11 +1,18 @@
 package Org::To::Pod;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use Log::Any '$log';
 
-use vars qw($VERSION);
-
-# VERSION
+our %SPEC;
+$SPEC{org_to_pod} = {
+    v => 1.1,
+};
+sub org_to_pod {
+    [502, "Not yet implemented"];
+}
 
 1;
 # ABSTRACT: Export Org document to Pod
