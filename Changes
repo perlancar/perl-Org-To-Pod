@@ -1,5 +1,12 @@
 Revision history for Org-To-Pod
 
+0.001    2014-08-16 (SHARYANTO) - Happy 19th CPAN Day!
+
+         - [build] CLI scripts are now generated automatically using
+           Dist::Zilla::Plugin::ScriptFromFunc. The plugin is still at 0.01 so the
+           generated script is not as polished as it should be. Stay tuned.
+
+
 0.00    2011-09-07 (SHARYANTO)
 
         - First release. Not yet implemented.
