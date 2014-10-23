@@ -11,7 +11,7 @@ $SPEC{org_to_pod} = {
     v => 1.1,
 };
 sub org_to_pod {
-    [502, "Not yet implemented"];
+    [501, "Not yet implemented"];
 }
 
 1;
