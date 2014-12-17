@@ -9,13 +9,14 @@ use Log::Any '$log';
 our %SPEC;
 $SPEC{org_to_pod} = {
     v => 1.1,
+    summary => 'Export Org document to Pod',
 };
 sub org_to_pod {
     [501, "Not yet implemented"];
 }
 
 1;
-# ABSTRACT: Export Org document to Pod
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
