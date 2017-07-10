@@ -4,7 +4,7 @@ package Org::To::Pod;
 # VERSION
 
 use 5.010001;
-use Log::Any::IfLOG '$log';
+use Log::ger;
 
 our %SPEC;
 $SPEC{org_to_pod} = {
